@@ -351,7 +351,7 @@ class Defog {
           hard_filters: hard_filters,
           db_type: this.db_type,
           previous_context: previous_context,
-          client: "node"
+          client: "nodejs"
         }),
         headers: { "Content-Type": "application/json" }
       });
